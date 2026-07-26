@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+url: https://trust.enervee.com
+certifications:
+- SOC 2 Type II
+- CCPA
+evidence:
+- source: https://www.enervee.com/security
+  keywords:
+  - soc 2 type ii
+  - ccpa
+  - trust report
+- source: https://trust.enervee.com
+  kind: trust center
+security_practices:
+- Column-level PII encryption using PostgreSQL pgcrypto PGP
+- Regular third-party penetration testing
+- Static analysis security testing (SAST)
+- AWS security services (KMS, GuardDuty, Inspector)
+- Managed Kubernetes deployment

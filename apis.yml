@@ -1,7 +1,30 @@
 aid: enervee
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enervee.png
 name: Enervee
-description: Enervee is a company surfaced as a portfolio company of obvious-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Enervee operates an AI-powered white-label marketplace platform that helps
+  utilities and government energy programs scale energy efficiency across 39
+  million-plus households in North America. Its stack spans a utility-branded
+  online store for efficient appliances and equipment across 40-plus product
+  categories (HVAC, water heaters, heat pumps, smart thermostats, EV chargers),
+  the Enervee Score - a proprietary 0-100 energy-efficiency rating updated daily
+  - Eco Financing embedded lending at checkout through national bank partners,
+  and Instant Rebates that automatically stack utility, government, and
+  manufacturer incentives at checkout. Enervee is a portfolio company of Obvious
+  Ventures. No public developer API or documentation surface is currently
+  published; this profile captures the company's public security, trust, and
+  identity posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/enervee/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Energy
+- Energy Efficiency
+- Marketplace
+- Utilities
+- Sustainability
+- Climate
+- Embedded Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,26 @@ maintainers:
 common:
 - type: Website
   url: https://enervee.com
+- type: Blog
+  url: https://www.enervee.com/blog
+- type: Support
+  url: https://www.enervee.com/contact
+- type: TermsOfService
+  url: https://www.enervee.com/terms
+- type: PrivacyPolicy
+  url: https://www.enervee.com/privacy
+- type: Security
+  url: https://www.enervee.com/disclosure
+- type: TrustCenter
+  url: security/enervee-trust-center.yml
+- type: Compliance
+  url: https://trust.enervee.com
+- type: DomainSecurity
+  url: security/enervee-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/enervee-vulnerability-disclosure.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
